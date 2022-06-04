@@ -1,0 +1,29 @@
+{
+    "name": "api",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "license": "ISC",
+    "author": {
+        "name": "Paulo Vitor dos Santos",
+        "email": "paulovitor.unb@gmail.com"
+    },
+    "scripts": {
+        "start": "node api/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@koa/cors": "^3.3.0",
+        "@koa/router": "^10.1.1",
+        "@prisma/client": "^3.14.0",
+        "bcrypt": "^5.0.1",
+        "jsonwebtoken": "^8.5.1",
+        "koa": "^2.13.4",
+        "koa-bodyparser": "^4.3.0",
+        "ramda": "^0.28.0"
+    },
+    "devDependencies": {
+        "prisma": "^3.14.0"
+    }
+}
