@@ -23,7 +23,7 @@ router.get("/tweets", async ctx => {
                 user: true
             }
         })
-        ctx.body = tweets
+        ctx.body = tweets.reverse()
     } catch (error) {
         if (typeof error === "JsonWebTokenError") {
             ctx.status = 401
